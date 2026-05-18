@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Gui+Sft+↹
+  - Gui+↹
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
