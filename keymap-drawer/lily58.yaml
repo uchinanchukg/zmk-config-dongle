@@ -73,16 +73,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
-  - Ctl+Z
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
   - Ctl+Y
   - Ctl+Y
-  - Ctl+V
-  - Ctl+C
-  - Ctl+X
-  - Ctl+Z
+  - Gui+V
+  - Gui+C
+  - Gui+X
+  - Gui+Z
   - PAGE UP
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
