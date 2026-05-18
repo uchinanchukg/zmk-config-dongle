@@ -67,11 +67,11 @@
 
         mouse_layer {
             bindings = <
-&to 0      &trans     &to 0      &trans     &trans     &trans                             &trans          &trans            &trans          &trans           &trans             &to 0
-&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))                      &trans          &mkp MB1          &mmv MOVE_UP    &mkp MB2         &trans             &trans
-&kp LSHFT  &kp LSHFT  &kp LALT   &kp LGUI   &kp LSHFT  &kp LCTRL                          &trans          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT    &kp RSHFT
-&trans     &trans     &trans     &trans     &trans     &trans         &trans    &trans    &msc SCRL_LEFT  &kp LG(LS(LEFT))  &msc SCRL_DOWN  &msc SCRL_UP     &kp LS(LG(RIGHT))  &msc SCRL_RIGHT
-                                 &trans     &trans     &trans         &trans    &mkp MB1  &mkp MB2        &mkp MB3          &trans
+&to 0      &trans     &to 0      &trans     &trans     &trans                               &trans          &trans            &trans          &trans           &trans             &to 0
+&trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))                        &trans          &mkp MB1          &mmv MOVE_UP    &mkp MB2         &trans             &trans
+&kp LSHFT  &kp LSHFT  &kp LALT   &kp LGUI   &kp LSHFT  &kp LCTRL                            &trans          &mmv MOVE_LEFT    &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT    &kp RSHFT
+&trans     &trans     &trans     &trans     &trans     &trans         &mkp MB1    &mkp MB2  &msc SCRL_LEFT  &kp LG(LS(LEFT))  &msc SCRL_DOWN  &msc SCRL_UP     &kp LS(LG(RIGHT))  &msc SCRL_RIGHT
+                                 &trans     &trans     &trans         &trans      &mkp MB1  &mkp MB2        &mkp MB3          &trans
             >;
 
             label = "Mouse";
