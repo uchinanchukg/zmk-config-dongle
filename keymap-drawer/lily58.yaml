@@ -110,8 +110,8 @@ layers:
   - PAGE UP
   - Gui+Sft+→
   - PAGE DOWN
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR ALL
+  - BT 1
   - {t: ▽, type: trans}
   - {type: held}
   - $$mdi:backspace-outline$$
