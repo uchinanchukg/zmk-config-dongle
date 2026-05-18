@@ -88,6 +88,7 @@
             >;
 
             label = "Macros";
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         num_layer {
@@ -100,6 +101,7 @@
             >;
 
             label = "Numbers";
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         sym_layer {
@@ -112,6 +114,7 @@
             >;
 
             label = "Symbols";
+            sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
         fun_layer {
@@ -124,6 +127,7 @@
             >;
 
             label = "Functions";
+            sensor-bindings = <&inc_dec_kp C_VOL_UP K_VOL_DN>;
         };
 
         windows_layer {
@@ -153,11 +157,11 @@
 
             display-name = "bluetooth";
             bindings = <
-&to 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                              &trans  &trans  &trans  &trans  &bt BT_SEL 0  &to 0
-&trans  &trans        &trans        &trans        &trans        &trans                              &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans        &bt BT_SEL 4  &trans        &trans        &trans                              &trans  &trans  &trans  &trans  &trans        &trans
-&trans  &trans        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans          &trans      &trans  &trans  &trans  &trans  &trans        &trans
-                                    &trans        &trans        &trans  &bt BT_SEL 0    &bt BT_CLR  &trans  &trans  &trans
+&to 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &trans                              &trans  &trans          &trans  &trans  &bt BT_SEL 0  &to 0
+&trans  &trans        &trans        &trans        &trans        &trans                              &trans  &trans          &trans  &trans  &trans        &bt BT_PRV
+&trans  &trans        &bt BT_SEL 4  &trans        &trans        &trans                              &trans  &trans          &trans  &trans  &trans        &trans
+&trans  &trans        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans          &trans      &trans  &trans          &trans  &trans  &trans        &bt BT_NXT
+                                    &trans        &trans        &trans  &bt BT_SEL 0    &bt BT_CLR  &trans  &bt BT_CLR_ALL  &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
