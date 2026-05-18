@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Gui+D
+  - Gui+Sft+↹
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -51,14 +51,14 @@ layers:
   - .
   - /
   - ↓
-  - {t: Gui+↹, h: Meh+LEFT GUI}
+  - {t: Gui+␣, h: Meh+LEFT GUI}
   - Macros
   - {t: ↹, h: Mouse}
   - {t: ␣, h: Navigation}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
-  - {t: Gui+↹, h: Meh+LEFT GUI}
+  - {t: Alt+␣, h: Meh+LEFT GUI}
   Navigation:
   - {t: Base, h: toggle}
   - {t: Base, h: toggle}
@@ -77,8 +77,8 @@ layers:
   - Gui+X
   - Gui+C
   - Gui+V
-  - Ctl+Y
-  - Ctl+Y
+  - Sft+Gui+Z
+  - Gui+Sft+Z
   - Gui+V
   - Gui+C
   - Gui+X
@@ -87,9 +87,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-control$$
+  - LEFT GUI
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-control$$
   - Caps Lock
   - ←
   - ↓
@@ -112,8 +112,8 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - BT 1
-  - {t: BT CLR, type: held}
+  - {t: ▽, type: trans}
+  - {type: held}
   - $$mdi:backspace-outline$$
   - ⏎
   - ⌦
@@ -132,15 +132,15 @@ layers:
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
+  - Gui+Z
+  - Gui+X
+  - Gui+C
+  - Gui+V
+  - Gui+Sft+Z
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
   - '&mmv MOVE_UP'
-  - {t: ▽, type: trans}
+  - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -153,9 +153,8 @@ layers:
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&mmv MOVE_RIGHT'
+  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,17 +164,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
+  - Gui+Sft+←
   - '&msc SCRL_DOWN'
-  - '&msc SCRL_DOWN'
+  - '&msc SCRL_UP'
+  - Sft+Gui+→
   - '&msc SCRL_RIGHT'
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - {t: ▽, type: trans}
   Macros:
   - {t: Base, h: toggle}
