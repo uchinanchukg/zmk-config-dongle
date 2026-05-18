@@ -193,7 +193,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+Sft+S
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Sft+Gui+Z

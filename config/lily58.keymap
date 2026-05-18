@@ -80,11 +80,11 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 1  &tog 2  &tog 3  &tog 4  &tog 5                    &tog 6         &to 7       &tog 8                &trans                &trans      &to 0
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans  &trans  &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
-                        &trans  &to 0   &tog 2  &tog 1    &tog 4  &tog 5         &tog 6      &trans
+&to 0   &tog 1  &tog 2  &tog 3         &tog 4  &tog 5                    &tog 6         &to 7       &tog 8                &trans                &trans      &to 0
+&trans  &trans  &trans  &kp LG(LS(S))  &trans  &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans         &trans  &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
+&trans  &trans  &trans  &trans         &trans  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
+                        &trans         &to 0   &tog 2  &tog 1    &tog 4  &tog 5         &tog 6      &trans
             >;
 
             label = "Macros";
