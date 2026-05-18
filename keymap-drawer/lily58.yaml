@@ -105,10 +105,10 @@ layers:
   - BRIGHTNESS AUTO
   - BRIGHTNESS AUTO
   - INSERT
-  - Gui+Home
+  - Gui+Sft+←
   - PAGE DOWN
   - PAGE UP
-  - Gui+End
+  - Gui+Sft+→
   - PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
