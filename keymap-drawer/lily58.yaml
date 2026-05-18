@@ -296,7 +296,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Symbols:
-  - {t: ▽, type: trans}
+  - {t: Base, h: toggle}
   - Sft+1
   - Sft+2
   - Sft+3
@@ -307,24 +307,37 @@ layers:
   - Sft+8
   - Sft+9
   - Sft+0
+  - {t: Base, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+7
-  - Sft+8
-  - Sft+9
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '{'
+  - AMPERSAND
+  - '*'
+  - (
+  - '}'
+  - Sft+Gui+Z
+  - Gui+V
+  - Gui+C
+  - Gui+X
+  - Gui+Z
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - ;
-  - Sft+4
-  - Sft+5
-  - Sft+6
+  - $
+  - '%'
+  - ^
+  - '='
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - '~'
+  - '!'
+  - '@'
+  - '#'
+  - Sft+|
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -334,22 +347,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Sft+1
-  - Sft+2
-  - Sft+3
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+0
+  - (
+  - )
+  - _
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
