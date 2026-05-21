@@ -161,13 +161,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
-  - Gui+Sft+←
+  - Gui+↓
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
-  - Sft+Gui+→
+  - Gui+↑
   - '&msc SCRL_RIGHT'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
