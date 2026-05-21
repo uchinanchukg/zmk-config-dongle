@@ -64,7 +64,7 @@
             bindings = <
 &kp ESC                         &kp N1        &kp N2       &kp N3                              &kp N4         &kp N5                                        &kp N6        &kp N7         &kp N8                              &kp N9       &kp N0        &kp LG(TAB)
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F                               &kp P          &kp B                                         &kp J         &kp L          &kp U                               &kp Y        &kp SQT       &kp UP
-&kp LSHFT                       &hrm LSHFT A  &hrm LALT R  &hrm LGUI S                         &hrm LSHIFT T  &hrm LCTRL G                                  &hrm RCTRL M  &hrm RSHIFT N  &hrm RGUI E                         &hrm RALT I  &hrm RSHFT O  &kp RSHFT
+&mt LSHFT LG(LS(SPACE))         &hrm LSHFT A  &hrm LALT R  &hrm LGUI S                         &hrm LSHIFT T  &hrm LCTRL G                                  &hrm RCTRL M  &hrm RSHIFT N  &hrm RGUI E                         &hrm RALT I  &hrm RSHFT O  &mt RSHFT LS(LG(BACKSPACE))
 &kp LCTRL                       &kp Z         &kp X        &kp C                               &kp D          &kp V         &kp C_MUTE     &kp C_MUTE       &kp K         &kp H          &kp COMMA                           &kp DOT      &kp FSLH      &kp DOWN
                                                            &mt LS(LA(LC(LEFT_GUI))) LG(SPACE)  &mo 3          &lt 2 TAB     &lt 1 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER   &lt 6 DELETE   &mt LS(LA(LC(LEFT_GUI))) LA(SPACE)
             >;
@@ -104,7 +104,7 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 1  &tog 2  &tog 3         &tog 4   &tog 5                    &tog 6         &to 7       &tog 8                &trans                &trans      &to 0
+&to 0   &tog 1  &tog 2  &tog 3         &tog 4   &tog 5                    &tog 6         &to 7       &tog 9                &trans                &trans      &to 0
 &trans  &trans  &trans  &kp LG(LS(S))  &trans   &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans         &trans   &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
 &trans  &trans  &trans  &pw_epic       &pw_smh  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
@@ -157,7 +157,7 @@
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F                             &kp P          &kp B                                        &kp J        &kp L          &kp U                             &kp Y        &kp SQT       &kp UP
 &kp LSHFT                       &hrm LSHFT A  &hrm LALT R  &hrm LCTRL S                      &hrm LSHIFT T  &hrm LGUI G                                  &hrm RGUI M  &hrm RSHIFT N  &hrm RCTRL E                      &hrm RALT I  &hrm RSHFT O  &kp RSHFT
 &kp LCTRL                       &kp Z         &kp X        &kp C                             &kp D          &kp V        &kp C_MUTE     &kp C_MUTE       &kp K        &kp H          &kp COMMA                         &kp DOT      &kp FSLH      &kp DOWN
-                                                           &mt LS(LA(LC(LEFT_GUI))) LA(TAB)  &mo 3          &lt 2 TAB    &lt 1 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER  &lt 6 DELETE   &mt LS(LA(LC(LEFT_GUI))) LA(TAB)
+                                                           &mt LS(LA(LC(LEFT_GUI))) LA(TAB)  &mo 3          &lt 2 TAB    &lt 8 SPACE    &lt 4 BACKSPACE  &lt 5 ENTER  &lt 6 DELETE   &mt LS(LA(LC(LEFT_GUI))) LA(TAB)
             >;
 
             sensor-bindings =
@@ -165,6 +165,19 @@
                 <&inc_dec_kp PG_UP PG_DN>;
 
             label = "Windows";
+        };
+
+        win_nav_layer {
+            label = "Windows Navigation";
+            bindings = <
+&to 0          &to 0      &trans     &trans          &trans        &trans                                                        &trans      &trans            &trans         &trans       &trans             &to 0
+&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)         &kp LC(C)      &kp LC(X)    &kp LC(Z)          &kp PAGE_UP
+&kp LSHFT      &kp LSHFT  &kp LALT   &kp LCTRL       &kp LSHFT     &kp LEFT_GUI                                                  &kp CAPS    &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp RSHIFT
+&kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET       &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp LG(LS(LEFT))  &kp PAGE_DOWN  &kp PAGE_UP  &kp LG(LS(RIGHT))  &kp PAGE_DOWN
+                                     &bt BT_CLR_ALL  &bt BT_SEL 0  &trans        &trans                   &kp BSPC               &kp RET     &kp DEL           &trans
+            >;
+
+            sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
         bt_layer {

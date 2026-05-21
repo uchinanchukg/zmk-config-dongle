@@ -25,7 +25,7 @@ layers:
   - Y
   - ''''
   - ↑
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Gui+Sft+␣, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -36,7 +36,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-command$$'}
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -467,11 +467,70 @@ layers:
   - {t: Alt+↹, h: Meh+LEFT GUI}
   - Macros
   - {t: ↹, h: Mouse}
-  - {t: ␣, h: Navigation}
+  - {t: ␣, h: Windows Navigation}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - {t: Alt+↹, h: Meh+LEFT GUI}
+  Windows Navigation:
+  - {t: Base, h: toggle}
+  - {t: Base, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: Base, h: toggle}
+  - {t: ▽, type: trans}
+  - Ctl+Z
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - Ctl+Y
+  - Ctl+Y
+  - Ctl+V
+  - Ctl+C
+  - Ctl+X
+  - Ctl+Z
+  - PAGE UP
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT GUI
+  - Caps Lock
+  - ←
+  - ↓
+  - ↑
+  - →
+  - RSHIFT
+  - Ctl+␣
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - $$mdi:backspace-outline$$
+  - ⌦
+  - ⏎
+  - BRIGHTNESS AUTO
+  - BRIGHTNESS AUTO
+  - INSERT
+  - Gui+Sft+←
+  - PAGE DOWN
+  - PAGE UP
+  - Gui+Sft+→
+  - PAGE DOWN
+  - BT CLR ALL
+  - BT 1
+  - {t: ▽, type: trans}
+  - {type: held}
+  - $$mdi:backspace-outline$$
+  - ⏎
+  - ⌦
+  - {t: ▽, type: trans}
   bluetooth:
   - {t: Base, h: toggle}
   - BT 2
