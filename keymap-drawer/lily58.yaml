@@ -61,11 +61,11 @@ layers:
   - {t: Alt+␣, h: Meh+LEFT GUI}
   Navigation:
   - {t: Base, h: toggle}
-  - {t: Base, h: toggle}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+1
+  - Ctl+2
+  - Ctl+3
+  - Ctl+←
+  - Ctl+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -102,8 +102,8 @@ layers:
   - $$mdi:backspace-outline$$
   - ⌦
   - ⏎
-  - BRIGHTNESS AUTO
-  - BRIGHTNESS AUTO
+  - Ctl+1
+  - Ctl+1
   - INSERT
   - Gui+Sft+←
   - PAGE DOWN
@@ -121,7 +121,7 @@ layers:
   Mouse:
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
-  - {t: Base, h: toggle}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
