@@ -161,14 +161,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Gui+↑
+  - Gui+↓
   - {t: ▽, type: trans}
   - '&msc SCRL_LEFT'
-  - Gui+↓
   - '&msc SCRL_DOWN'
   - '&msc SCRL_UP'
-  - Gui+↑
   - '&msc SCRL_RIGHT'
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
