@@ -96,7 +96,7 @@ layers:
   - ↑
   - →
   - RSHIFT
-  - {t: ▽, type: trans}
+  - Ctl+␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:backspace-outline$$
