@@ -64,8 +64,8 @@ layers:
   - Ctl+1
   - Ctl+2
   - Ctl+3
-  - Ctl+←
-  - Ctl+→
+  - Ctl+UP ARROW
+  - Ctl+↓
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
