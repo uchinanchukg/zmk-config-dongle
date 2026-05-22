@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: Windows, h: toggle}
+  - {t: Win, h: toggle}
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -59,7 +59,7 @@ layers:
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - Gui+↹
-  Windows:
+  Win:
   - Esc
   - '1'
   - '2'
@@ -303,7 +303,7 @@ layers:
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
-  - {t: Windows, h: toggle}
+  - {t: Win, h: toggle}
   - {t: Win Nav, h: toggle}
   - {t: bluetooth, h: toggle}
   - {t: ▽, type: trans}
