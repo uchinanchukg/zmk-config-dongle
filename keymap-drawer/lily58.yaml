@@ -37,7 +37,7 @@ layers:
   - {t: I, h: LEFT ALT}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-control$$
+  - Ctl+␣
   - Z
   - X
   - C
