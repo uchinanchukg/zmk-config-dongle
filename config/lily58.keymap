@@ -96,11 +96,11 @@
         win_nav_layer {
             label = "Windows Navigation";
             bindings = <
-&to 0          &trans     &trans     &trans          &trans        &trans                                                     &trans      &trans     &trans         &trans       &trans     &to 0
-&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                  &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
-&kp LSHFT      &trans     &kp LALT   &kp LCTRL       &kp LCMD      &trans                                                     &kp CAPS    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
-&kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET    &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
-                                     &bt BT_CLR_ALL  &bt BT_SEL 0  &trans     &trans                   &kp BSPC               &kp RET     &kp DEL    &trans
+&to 0          &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
+&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
+&kp LSHFT      &trans     &kp LALT   &kp LCTRL       &kp LSHFT     &kp LEFT_GUI                                                  &kp CAPS    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
+&kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET       &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
+                                     &bt BT_CLR_ALL  &bt BT_SEL 0  &trans        &trans                   &kp BSPC               &kp RET     &kp DEL    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -110,7 +110,7 @@
             bindings = <
 &to 0          &kp LC(N1)  &kp LC(N2)  &kp LC(N3)      &kp LC(UP_ARROW)  &kp LC(DOWN)                             &trans         &trans     &trans         &trans       &trans     &to 0
 &trans         &kp LG(Z)   &kp LG(X)   &kp LG(C)       &kp LG(V)         &kp LS(LG(Z))                            &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)      &kp LG(X)    &kp LG(Z)  &kp PAGE_UP
-&kp LSHFT      &trans      &kp LALT    &kp LEFT_GUI    &kp LCTRL         &trans                                   &kp CAPS       &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
+&kp LSHFT      &trans      &kp LALT    &kp LEFT_GUI    &kp LSHFT         &kp LCTRL                                &kp CAPS       &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
 &kp LC(SPACE)  &trans      &trans      &kp BSPC        &kp DEL           &kp RET        &kp LC(N1)    &kp LC(N1)  &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
                                        &bt BT_CLR_ALL  &bt BT_SEL 0      &trans         &trans        &kp BSPC    &kp RET        &kp DEL    &trans
             >;
@@ -123,7 +123,7 @@
             bindings = <
 &to 0      &trans     &trans     &trans     &trans     &trans                                     &trans    &trans          &trans          &trans           &trans           &to 0
 &trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))                              &trans    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans           &trans
-&kp LSHFT  &trans     &kp LALT   &kp LGUI   &kp LCTRL  &trans                                     &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &kp LSHFT
+&kp LSHFT  &trans     &kp LALT   &kp LGUI   &kp LSHFT  &kp LCTRL                                  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &kp LSHFT
 &trans     &trans     &trans     &trans     &trans     &trans         &kp LG(UP)    &kp LG(DOWN)  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans
                                  &trans     &trans     &trans         &trans        &mkp MB1      &mkp MB2  &mkp MB3        &trans
             >;

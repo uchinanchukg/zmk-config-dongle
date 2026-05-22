@@ -147,8 +147,8 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - LCMD
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT GUI
   - Caps Lock
   - ←
   - ↓
@@ -206,8 +206,8 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - LEFT GUI
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
   - Caps Lock
   - ←
   - ↓
@@ -265,8 +265,8 @@ layers:
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mmv MOVE_LEFT'
   - '&mmv MOVE_DOWN'
