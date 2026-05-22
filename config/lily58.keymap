@@ -104,7 +104,7 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 1  &tog 2  &tog 3         &tog 4   &tog 5                    &tog 6         &default_layer 7       &tog 8                &tog 9                &trans      &to 0
+&to 0   &tog 1  &tog 2  &tog 3         &tog 4   &tog 5                    &tog 6         &to 7       &tog 8                &tog 9                &trans      &to 0
 &trans  &trans  &trans  &kp LG(LS(S))  &trans   &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans         &trans   &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
 &trans  &trans  &trans  &pw_epic       &pw_smh  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
@@ -170,7 +170,7 @@
         win_nav_layer {
             label = "Windows Navigation";
             bindings = <
-&default_layer 0          &to 0      &trans     &trans          &trans        &trans                                                        &trans      &trans            &trans         &trans       &trans             &to 0
+&to 0          &to 0      &trans     &trans          &trans        &trans                                                        &trans      &trans            &trans         &trans       &trans             &to 0
 &trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)         &kp LC(C)      &kp LC(X)    &kp LC(Z)          &kp PAGE_UP
 &kp LSHFT      &kp LSHFT  &kp LALT   &kp LCTRL       &kp LSHFT     &kp LEFT_GUI                                                  &kp CAPS    &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp RSHIFT
 &kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET       &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp LG(LS(LEFT))  &kp PAGE_DOWN  &kp PAGE_UP  &kp LG(LS(RIGHT))  &kp PAGE_DOWN

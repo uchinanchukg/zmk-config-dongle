@@ -185,7 +185,7 @@ layers:
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
-  - '&default_layer 7'
+  - {t: Windows, h: toggle}
   - {t: Windows Navigation, h: toggle}
   - {t: bluetooth, h: toggle}
   - {t: ▽, type: trans}
@@ -473,7 +473,7 @@ layers:
   - {t: DELETE, h: Functions}
   - {t: Alt+↹, h: Meh+LEFT GUI}
   Windows Navigation:
-  - '&default_layer'
+  - {t: Base, h: toggle}
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
