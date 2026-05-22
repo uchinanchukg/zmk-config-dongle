@@ -29,10 +29,10 @@ layers:
   - A
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: T, h: '$$mdi:apple-keyboard-control$$'}
-  - G
-  - M
-  - {t: N, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: M, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: LCMD}
   - {t: I, h: LEFT ALT}
   - O
@@ -88,10 +88,10 @@ layers:
   - A
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: T, h: LEFT GUI}
-  - G
-  - M
-  - {t: N, h: LEFT GUI}
+  - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: G, h: LEFT GUI}
+  - {t: M, h: LEFT GUI}
+  - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: LEFT ALT}
   - O

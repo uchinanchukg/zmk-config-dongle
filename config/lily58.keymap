@@ -62,11 +62,11 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC                         &kp N1  &kp N2       &kp N3       &kp N4        &kp N5                                     &kp N6       &kp N7        &kp N8       &kp N9           &kp N0    &to 1
-&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F        &kp P         &kp B                                      &kp J        &kp L         &kp U        &kp Y            &kp SQT   &kp UP
-&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S  &hrm LCTRL T  &kp G                                      &kp M        &hrm LCTRL N  &hrm LCMD E  &hrm LEFT_ALT I  &kp O     &mt LSHFT LS(LG(BACKSPACE))
-&kp LCTRL                       &kp Z   &kp X        &kp C        &kp D         &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H         &kp COMMA    &kp DOT          &kp FSLH  &kp DOWN
-                                                     &kp LG(TAB)  &mo 5         &lt 4 TAB  &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE  &kp LG(TAB)
+&kp ESC                         &kp N1  &kp N2       &kp N3       &kp N4        &kp N5                                       &kp N6       &kp N7        &kp N8       &kp N9           &kp N0    &to 1
+&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F        &kp P         &kp B                                        &kp J        &kp L         &kp U        &kp Y            &kp SQT   &kp UP
+&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S  &hrm LSHFT T  &mt LCTRL G                                  &mt LCTRL M  &hrm LSHFT N  &hrm LCMD E  &hrm LEFT_ALT I  &kp O     &mt LSHFT LS(LG(BACKSPACE))
+&kp LCTRL                       &kp Z   &kp X        &kp C        &kp D         &kp V        &kp C_MUTE     &kp C_MUTE       &kp K        &kp H         &kp COMMA    &kp DOT          &kp FSLH  &kp DOWN
+                                                     &kp LG(TAB)  &mo 5         &lt 4 TAB    &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE  &kp LG(TAB)
             >;
 
             // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -79,11 +79,11 @@
         windows_layer {
             display-name = "Base";
             bindings = <
-&kp ESC                         &kp N1  &kp N2       &kp N3        &kp N4           &kp N5                                     &kp N6       &kp N7           &kp N8        &kp N9           &kp N0    &to 0
-&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F         &kp P            &kp B                                      &kp J        &kp L            &kp U         &kp Y            &kp SQT   &kp UP
-&kp LSHFT                       &kp A   &hrm LALT R  &hrm LCTRL S  &hrm LEFT_GUI T  &kp G                                      &kp M        &hrm LEFT_GUI N  &hrm LCTRL E  &hrm LEFT_ALT I  &kp O     &kp LSHFT
-&kp LCTRL                       &kp Z   &kp X        &kp C         &kp D            &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H            &kp COMMA     &kp DOT          &kp FSLH  &kp DOWN
-                                                     &kp LA(TAB)   &mo 5            &lt 4 TAB  &lt 2 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE     &kp LA(TAB)
+&kp ESC                         &kp N1  &kp N2       &kp N3        &kp N4        &kp N5                                          &kp N6          &kp N7        &kp N8        &kp N9           &kp N0    &to 0
+&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F         &kp P         &kp B                                           &kp J           &kp L         &kp U         &kp Y            &kp SQT   &kp UP
+&kp LSHFT                       &kp A   &hrm LALT R  &hrm LCTRL S  &hrm LSHFT T  &mt LEFT_GUI G                                  &mt LEFT_GUI M  &hrm LSHFT N  &hrm LCTRL E  &hrm LEFT_ALT I  &kp O     &kp LSHFT
+&kp LCTRL                       &kp Z   &kp X        &kp C         &kp D         &kp V           &kp C_MUTE     &kp C_MUTE       &kp K           &kp H         &kp COMMA     &kp DOT          &kp FSLH  &kp DOWN
+                                                     &kp LA(TAB)   &mo 5         &lt 4 TAB       &lt 2 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER     &lt 8 DELETE  &kp LA(TAB)
             >;
 
             sensor-bindings =
