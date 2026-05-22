@@ -77,7 +77,7 @@
         };
 
         windows_layer {
-            display-name = "Win Layer";
+            display-name = "Win";
             bindings = <
 &kp ESC                         &kp N1        &kp N2       &kp N3        &kp N4        &kp N5                                           &kp N6           &kp N7        &kp N8        &kp N9           &kp N0        &to 0
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F         &kp P         &kp B                                            &kp J            &kp L         &kp U         &kp Y            &kp SQT       &kp UP
@@ -90,11 +90,11 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
 
-            label = "Win";
+            label = "Windows";
         };
 
         win_nav_layer {
-            label = "Win Nav";
+            label = "WinOS";
             bindings = <
 &to 0           &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
@@ -116,7 +116,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
-            label = "Mac Nav";
+            label = "MacOS";
         };
 
         mouse_layer {

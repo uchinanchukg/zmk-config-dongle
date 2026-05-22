@@ -281,8 +281,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 56)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Win">
-<text x="0" y="0" class="key tap layer-activator">Win</text>
+<a href="#Windows">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 86%">Windows</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 112)" class="key keypos-12">
@@ -472,8 +472,8 @@ rect.held, rect.combo.held {
 <g transform="translate(350, 266) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">␣</text>
-<a href="#Mac-Nav">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Mac Nav</tspan></text>
+<a href="#MacOS">
+<text x="0" y="38" class="key hold layer-activator">MacOS</text>
 </a></g>
 <g transform="translate(574, 266) rotate(-30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -499,8 +499,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 372)" class="layer-Win">
-<text x="0" y="28" class="label" id="Win">Win:</text>
+<g transform="translate(40, 372)" class="layer-Windows">
+<text x="0" y="28" class="label" id="Windows">Windows:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -737,8 +737,8 @@ rect.held, rect.combo.held {
 <g transform="translate(350, 266) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
 <text x="0" y="0" class="key tap">␣</text>
-<a href="#Win-Nav">
-<text x="0" y="38" class="key hold layer-activator"><tspan style="font-size: 86%">Win Nav</tspan></text>
+<a href="#WinOS">
+<text x="0" y="38" class="key hold layer-activator">WinOS</text>
 </a></g>
 <g transform="translate(574, 266) rotate(-30.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
@@ -764,8 +764,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 745)" class="layer-Win Nav">
-<text x="0" y="28" class="label" id="Win-Nav">Win Nav:</text>
+<g transform="translate(40, 745)" class="layer-WinOS">
+<text x="0" y="28" class="label" id="WinOS">WinOS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1030,8 +1030,8 @@ rect.held, rect.combo.held {
 </g>
 </g>
 </g>
-<g transform="translate(40, 1117)" class="layer-Mac Nav">
-<text x="0" y="28" class="label" id="Mac-Nav">Mac Nav:</text>
+<g transform="translate(40, 1117)" class="layer-MacOS">
+<text x="0" y="28" class="label" id="MacOS">MacOS:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1583,10 +1583,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(84, 49)" class="key keypos-1">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Mac-Nav">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">Mac</tspan><tspan x="0" dy="1.2em">Nav</tspan>
-</text>
+<a href="#MacOS">
+<text x="0" y="0" class="key tap layer-activator">MacOS</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(140, 35)" class="key keypos-2">
@@ -1621,16 +1619,14 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(672, 35)" class="key keypos-7">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Win">
-<text x="0" y="0" class="key tap layer-activator">Win</text>
+<a href="#Windows">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 86%">Windows</tspan></text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(728, 28)" class="key keypos-8">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<a href="#Win-Nav">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">Win</tspan><tspan x="0" dy="1.2em">Nav</tspan>
-</text>
+<a href="#WinOS">
+<text x="0" y="0" class="key tap layer-activator">WinOS</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(784, 35)" class="key keypos-9">
@@ -1834,10 +1830,8 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(350, 266) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-40" width="52" height="80" class="key"/>
-<a href="#Mac-Nav">
-<text x="0" y="0" class="key tap layer-activator">
-<tspan x="0" dy="-0.9em">Mac</tspan><tspan x="0" dy="1.2em">Nav</tspan>
-</text>
+<a href="#MacOS">
+<text x="0" y="0" class="key tap layer-activator">MacOS</text>
 </a><text x="0" y="38" class="key hold">toggle</text>
 </g>
 <g transform="translate(574, 266) rotate(-30.0)" class="key keypos-54">

@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: Win, h: toggle}
+  - {t: Windows, h: toggle}
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -54,12 +54,12 @@ layers:
   - Gui+↹
   - Macros
   - {t: ↹, h: Mouse}
-  - {t: ␣, h: Mac Nav}
+  - {t: ␣, h: MacOS}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - Gui+↹
-  Win:
+  Windows:
   - Esc
   - '1'
   - '2'
@@ -113,12 +113,12 @@ layers:
   - Alt+↹
   - Macros
   - {t: ↹, h: Mouse}
-  - {t: ␣, h: Win Nav}
+  - {t: ␣, h: WinOS}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - Alt+↹
-  Win Nav:
+  WinOS:
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,7 +177,7 @@ layers:
   - ⏎
   - ⌦
   - {t: ▽, type: trans}
-  Mac Nav:
+  MacOS:
   - {t: Base, h: toggle}
   - Ctl+1
   - Ctl+2
@@ -297,14 +297,14 @@ layers:
   - {t: ▽, type: trans}
   Macros:
   - {t: Base, h: toggle}
-  - {t: Mac Nav, h: toggle}
+  - {t: MacOS, h: toggle}
   - {t: Mouse, h: toggle}
   - {t: Macros, h: toggle}
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
-  - {t: Win, h: toggle}
-  - {t: Win Nav, h: toggle}
+  - {t: Windows, h: toggle}
+  - {t: WinOS, h: toggle}
   - {t: bluetooth, h: toggle}
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
@@ -349,7 +349,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: Mouse, h: toggle}
-  - {t: Mac Nav, h: toggle}
+  - {t: MacOS, h: toggle}
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
