@@ -25,7 +25,7 @@ layers:
   - Y
   - ''''
   - ↑
-  - {t: Gui+Sft+␣, h: Caps Lock}
+  - {t: Gui+Sft+␣, h: LEFT SHIFT}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -36,7 +36,7 @@ layers:
   - {t: E, h: LCMD}
   - {t: I, h: LEFT ALT}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Sft+Gui+BACKSPACE, h: Caps Lock}
+  - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
