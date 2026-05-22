@@ -74,6 +74,8 @@
             sensor-bindings =
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
+
+            label = "MacOS";
         };
 
         windows_layer {
@@ -94,7 +96,7 @@
         };
 
         win_nav_layer {
-            label = "Windows Nav";
+            label = "Win Navigation";
             bindings = <
 &to 0           &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
@@ -116,7 +118,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
-            label = "MacOS";
+            label = "Mac Navigation";
         };
 
         mouse_layer {
