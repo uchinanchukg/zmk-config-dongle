@@ -144,17 +144,17 @@ layers:
   - Ctl+Z
   - PAGE UP
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - LEFT GUI
+  - LCMD
+  - {t: ▽, type: trans}
   - Caps Lock
   - ←
   - ↓
   - ↑
   - →
-  - RSHIFT
+  - $$mdi:apple-keyboard-shift$$
   - Ctl+␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -164,10 +164,10 @@ layers:
   - BRIGHTNESS AUTO
   - BRIGHTNESS AUTO
   - INSERT
-  - Gui+Sft+←
+  - Home
   - PAGE DOWN
   - PAGE UP
-  - Gui+Sft+→
+  - End
   - PAGE DOWN
   - BT CLR ALL
   - BT 1
@@ -203,17 +203,17 @@ layers:
   - Gui+Z
   - PAGE UP
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-option$$
   - LEFT GUI
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
+  - {t: ▽, type: trans}
   - Caps Lock
   - ←
   - ↓
   - ↑
   - →
-  - RSHIFT
+  - $$mdi:apple-keyboard-shift$$
   - Ctl+␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -64,7 +64,7 @@
             bindings = <
 &kp ESC                         &kp N1  &kp N2       &kp N3                              &kp N4        &kp N5                                     &kp N6       &kp N7        &kp N8                              &kp N9           &kp N0    &kp LG(TAB)
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F                               &kp P         &kp B                                      &kp J        &kp L         &kp U                               &kp Y            &kp SQT   &kp UP
-&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S                         &hrm LCTRL T  &kp G                                      &kp M        &hrm LCTRL N  &hrm LCMD E                         &hrm LEFT_ALT I  &kp O     &mt RSHFT LS(LG(BACKSPACE))
+&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S                         &hrm LCTRL T  &kp G                                      &kp M        &hrm LCTRL N  &hrm LCMD E                         &hrm LEFT_ALT I  &kp O     &mt LSHFT LS(LG(BACKSPACE))
 &kp LCTRL                       &kp Z   &kp X        &kp C                               &kp D         &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H         &kp COMMA                           &kp DOT          &kp FSLH  &kp DOWN
                                                      &mt LS(LA(LC(LEFT_GUI))) LG(SPACE)  &mo 5         &lt 4 TAB  &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE  &mt LS(LA(LC(LEFT_GUI))) LA(SPACE)
             >;
@@ -81,7 +81,7 @@
             bindings = <
 &kp ESC                         &kp N1  &kp N2       &kp N3                            &kp N4           &kp N5                                     &kp N6       &kp N7           &kp N8                            &kp N9           &kp N0    &kp LG(D)
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F                             &kp P            &kp B                                      &kp J        &kp L            &kp U                             &kp Y            &kp SQT   &kp UP
-&kp LSHFT                       &kp A   &hrm LALT R  &hrm LCTRL S                      &hrm LEFT_GUI T  &kp G                                      &kp M        &hrm LEFT_GUI N  &hrm LCTRL E                      &hrm LEFT_ALT I  &kp O     &kp RSHFT
+&kp LSHFT                       &kp A   &hrm LALT R  &hrm LCTRL S                      &hrm LEFT_GUI T  &kp G                                      &kp M        &hrm LEFT_GUI N  &hrm LCTRL E                      &hrm LEFT_ALT I  &kp O     &kp LSHFT
 &kp LCTRL                       &kp Z   &kp X        &kp C                             &kp D            &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H            &kp COMMA                         &kp DOT          &kp FSLH  &kp DOWN
                                                      &mt LS(LA(LC(LEFT_GUI))) LA(TAB)  &mo 5            &lt 4 TAB  &lt 2 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE     &mt LS(LA(LC(LEFT_GUI))) LA(TAB)
             >;
@@ -96,11 +96,11 @@
         win_nav_layer {
             label = "Windows Navigation";
             bindings = <
-&to 0          &to 0      &trans     &trans          &trans        &trans                                                        &trans      &trans            &trans         &trans       &trans             &to 0
-&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)         &kp LC(C)      &kp LC(X)    &kp LC(Z)          &kp PAGE_UP
-&kp LSHFT      &kp LSHFT  &kp LALT   &kp LCTRL       &kp LSHFT     &kp LEFT_GUI                                                  &kp CAPS    &kp LEFT          &kp DOWN       &kp UP       &kp RIGHT          &kp RSHIFT
-&kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET       &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp LG(LS(LEFT))  &kp PAGE_DOWN  &kp PAGE_UP  &kp LG(LS(RIGHT))  &kp PAGE_DOWN
-                                     &bt BT_CLR_ALL  &bt BT_SEL 0  &trans        &trans                   &kp BSPC               &kp RET     &kp DEL           &trans
+&to 0          &to 0      &trans     &trans          &trans        &trans                                                     &trans      &trans     &trans         &trans       &trans     &to 0
+&trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                  &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
+&kp LSHFT      &trans     &kp LALT   &kp LCTRL       &kp LCMD      &trans                                                     &kp CAPS    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
+&kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET    &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
+                                     &bt BT_CLR_ALL  &bt BT_SEL 0  &trans     &trans                   &kp BSPC               &kp RET     &kp DEL    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
@@ -110,7 +110,7 @@
             bindings = <
 &to 0          &kp LC(N1)  &kp LC(N2)  &kp LC(N3)      &kp LC(UP_ARROW)  &kp LC(DOWN)                             &trans         &trans     &trans         &trans       &trans     &to 0
 &trans         &kp LG(Z)   &kp LG(X)   &kp LG(C)       &kp LG(V)         &kp LS(LG(Z))                            &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)      &kp LG(X)    &kp LG(Z)  &kp PAGE_UP
-&kp LSHFT      &kp LSHFT   &kp LALT    &kp LEFT_GUI    &kp LSHFT         &kp LCTRL                                &kp CAPS       &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp RSHIFT
+&kp LSHFT      &trans      &kp LALT    &kp LEFT_GUI    &kp LCTRL         &trans                                   &kp CAPS       &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
 &kp LC(SPACE)  &trans      &trans      &kp BSPC        &kp DEL           &kp RET        &kp LC(N1)    &kp LC(N1)  &kp INSERT     &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
                                        &bt BT_CLR_ALL  &bt BT_SEL 0      &trans         &trans        &kp BSPC    &kp RET        &kp DEL    &trans
             >;
