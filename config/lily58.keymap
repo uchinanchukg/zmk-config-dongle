@@ -62,10 +62,10 @@
 
             display-name = "Base";
             bindings = <
-&kp ESC                         &kp N1  &kp N2       &kp N3                              &kp N4        &kp N5                                     &kp N6       &kp N7        &kp N8                              &kp N9       &kp N0        &kp LG(TAB)
-&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F                               &kp P         &kp B                                      &kp J        &kp L         &kp U                               &kp Y        &kp SQT       &kp UP
-&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S                         &hrm LCTRL T  &kp G                                      &kp M        &hrm RCTRL N  &hrm RIGHT_GUI E                    &hrm RALT I  &hrm RSHFT O  &mt RSHFT LS(LG(BACKSPACE))
-&kp LCTRL                       &kp Z   &kp X        &kp C                               &kp D         &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H         &kp COMMA                           &kp DOT      &kp FSLH      &kp DOWN
+&kp ESC                         &kp N1  &kp N2       &kp N3                              &kp N4        &kp N5                                     &kp N6       &kp N7        &kp N8                              &kp N9           &kp N0    &kp LG(TAB)
+&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q   &kp W        &kp F                               &kp P         &kp B                                      &kp J        &kp L         &kp U                               &kp Y            &kp SQT   &kp UP
+&mt LSHFT LG(LS(SPACE))         &kp A   &hrm LALT R  &hrm LGUI S                         &hrm LCTRL T  &kp G                                      &kp M        &hrm LCTRL N  &hrm LCMD E                         &hrm LEFT_ALT I  &kp O     &mt RSHFT LS(LG(BACKSPACE))
+&kp LCTRL                       &kp Z   &kp X        &kp C                               &kp D         &kp V      &kp C_MUTE     &kp C_MUTE       &kp K        &kp H         &kp COMMA                           &kp DOT          &kp FSLH  &kp DOWN
                                                      &mt LS(LA(LC(LEFT_GUI))) LG(SPACE)  &mo 5         &lt 4 TAB  &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DELETE  &mt LS(LA(LC(LEFT_GUI))) LA(SPACE)
             >;
 

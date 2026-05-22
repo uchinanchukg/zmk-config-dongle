@@ -33,9 +33,9 @@ layers:
   - G
   - M
   - {t: N, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: E, h: RIGHT GUI}
-  - {t: I, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: E, h: LCMD}
+  - {t: I, h: LEFT ALT}
+  - O
   - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
