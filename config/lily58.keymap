@@ -94,7 +94,7 @@
         };
 
         win_nav_layer {
-            label = "Windows Navigation";
+            label = "Windows";
             bindings = <
 &to 0           &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
