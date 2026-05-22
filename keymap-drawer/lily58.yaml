@@ -26,7 +26,7 @@ layers:
   - ''''
   - ↑
   - {t: Gui+Sft+␣, h: '$$mdi:apple-keyboard-shift$$'}
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
@@ -35,7 +35,7 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: LCMD}
   - {t: I, h: LEFT ALT}
-  - O
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -85,7 +85,7 @@ layers:
   - ''''
   - ↑
   - $$mdi:apple-keyboard-shift$$
-  - A
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
   - {t: T, h: '$$mdi:apple-keyboard-shift$$'}
@@ -94,7 +94,7 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: LEFT ALT}
-  - O
+  - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - Z
@@ -144,7 +144,7 @@ layers:
   - Ctl+Z
   - PAGE UP
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -203,7 +203,7 @@ layers:
   - Gui+Z
   - PAGE UP
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT GUI
   - $$mdi:apple-keyboard-shift$$
@@ -262,7 +262,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-shift$$
@@ -389,7 +389,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - '`'
@@ -448,7 +448,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - '~'
@@ -507,7 +507,7 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: ▽, type: trans}
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
