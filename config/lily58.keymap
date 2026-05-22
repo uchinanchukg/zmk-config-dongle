@@ -96,7 +96,7 @@
         win_nav_layer {
             label = "Windows Navigation";
             bindings = <
-&to 0          &to 0      &trans     &trans          &trans        &trans                                                     &trans      &trans     &trans         &trans       &trans     &to 0
+&to 0          &trans     &trans     &trans          &trans        &trans                                                     &trans      &trans     &trans         &trans       &trans     &to 0
 &trans         &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                  &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
 &kp LSHFT      &trans     &kp LALT   &kp LCTRL       &kp LCMD      &trans                                                     &kp CAPS    &kp LEFT   &kp DOWN       &kp UP       &kp RIGHT  &kp LSHFT
 &kp LC(SPACE)  &trans     &trans     &kp BSPC        &kp DEL       &kp RET    &kp C_BRIGHTNESS_AUTO    &kp C_BRIGHTNESS_AUTO  &kp INSERT  &kp HOME   &kp PAGE_DOWN  &kp PAGE_UP  &kp END    &kp PAGE_DOWN
@@ -123,7 +123,7 @@
             bindings = <
 &to 0      &trans     &trans     &trans     &trans     &trans                                     &trans    &trans          &trans          &trans           &trans           &to 0
 &trans     &kp LG(Z)  &kp LG(X)  &kp LG(C)  &kp LG(V)  &kp LG(LS(Z))                              &trans    &mkp MB1        &mmv MOVE_UP    &mkp MB2         &trans           &trans
-&kp LSHFT  &kp LSHFT  &kp LALT   &kp LGUI   &kp LSHFT  &kp LCTRL                                  &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &kp RSHFT
+&kp LSHFT  &trans     &kp LALT   &kp LGUI   &kp LCTRL  &trans                                     &trans    &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &mmv MOVE_RIGHT  &kp LSHFT
 &trans     &trans     &trans     &trans     &trans     &trans         &kp LG(UP)    &kp LG(DOWN)  &trans    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP     &msc SCRL_RIGHT  &trans
                                  &trans     &trans     &trans         &trans        &mkp MB1      &mkp MB2  &mkp MB3        &trans
             >;
@@ -138,7 +138,7 @@
 &trans  &trans  &trans  &kp LG(LS(S))  &trans   &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans         &trans   &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
 &trans  &trans  &trans  &pw_epic       &pw_smh  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
-                        &trans         &to 0    &tog 4  &tog 3    &tog 6  &tog 7         &tog 8      &trans
+                        &trans         &trans   &tog 4  &tog 3    &tog 6  &tog 7         &tog 8      &trans
             >;
 
             label = "Macros";
@@ -148,7 +148,7 @@
             bindings = <
 &to 0   &kp N1     &kp N2  &kp N3  &kp N4     &kp N5                        &kp N6         &kp N7     &kp N8     &kp N9     &kp N0     &to 0
 &trans  &kp LBKT   &kp N7  &kp N8  &kp N9     &kp RBKT                      &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &kp BSLH
-&trans  &kp COLON  &kp N4  &kp N5  &kp N6     &kp PLUS                      &kp RCTRL      &kp RSHFT  &kp RGUI   &kp RALT   &kp RSHFT  &kp RSHFT
+&trans  &kp COLON  &kp N4  &kp N5  &kp N6     &kp PLUS                      &trans         &kp LCTRL  &kp RGUI   &kp RALT   &trans     &kp LSHFT
 &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3     &kp BSLH  &trans    &trans    &trans         &trans     &kp COMMA  &kp DOT    &kp FSLH   &trans
                            &trans  &kp MINUS  &kp BSPC  &kp N0    &kp BSPC  &trans         &trans     &trans
             >;
