@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: Windows, h: toggle}
+  - {t: WinOS, h: toggle}
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -59,7 +59,7 @@ layers:
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - Gui+↹
-  Windows:
+  WinOS:
   - Esc
   - '1'
   - '2'
@@ -113,12 +113,12 @@ layers:
   - Alt+↹
   - Macros
   - {t: ↹, h: Mouse}
-  - {t: ␣, h: WinOS}
+  - {t: ␣, h: Windows Nav}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
   - Alt+↹
-  WinOS:
+  Windows Nav:
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -303,8 +303,8 @@ layers:
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
-  - {t: Windows, h: toggle}
   - {t: WinOS, h: toggle}
+  - {t: Windows Nav, h: toggle}
   - {t: bluetooth, h: toggle}
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
