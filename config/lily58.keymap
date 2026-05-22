@@ -134,11 +134,11 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 3  &tog 4  &tog 5         &tog 6   &tog 7                    &tog 8         &to 1       &tog 2                &tog 9                &trans      &to 0
-&trans  &trans  &trans  &kp LG(LS(S))  &trans   &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans         &trans   &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
-&trans  &trans  &trans  &pw_epic       &pw_smh  &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
-                        &trans         &trans   &tog 4  &tog 3    &tog 6  &tog 7         &tog 8      &trans
+&to 0   &tog 3  &tog 4  &tog 5         &tog 6            &tog 7                    &tog 8         &to 1       &tog 2                &tog 9                &trans      &to 0
+&trans  &trans  &trans  &kp LG(LS(S))  &trans            &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans         &kp LG(LS(LEFT))  &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
+&trans  &trans  &trans  &pw_epic       &pw_smh           &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
+                        &trans         &trans            &tog 4  &tog 3    &tog 6  &tog 7         &tog 8      &trans
             >;
 
             label = "Macros";
