@@ -96,7 +96,7 @@
         };
 
         win_nav_layer {
-            label = "Win Navigation";
+            label = "Win Nav";
             bindings = <
 &to 0           &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
@@ -118,7 +118,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
-            label = "Mac Navigation";
+            label = "Mac Nav";
         };
 
         mouse_layer {
