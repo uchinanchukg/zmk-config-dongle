@@ -25,7 +25,7 @@ layers:
   - Y
   - ''''
   - ↑
-  - {t: Gui+Sft+␣, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Gui+Sft+␣, h: Caps Lock}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-command$$'}
@@ -36,7 +36,7 @@ layers:
   - {t: E, h: LCMD}
   - {t: I, h: LEFT ALT}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: Sft+Gui+BACKSPACE, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Sft+Gui+BACKSPACE, h: Caps Lock}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -84,7 +84,7 @@ layers:
   - Y
   - ''''
   - ↑
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: R, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: '$$mdi:apple-keyboard-control$$'}
@@ -95,7 +95,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: LEFT ALT}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
@@ -143,7 +143,7 @@ layers:
   - Ctl+X
   - Ctl+Z
   - PAGE UP
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
@@ -154,7 +154,7 @@ layers:
   - ↓
   - ↑
   - →
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - Ctl+␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -202,7 +202,7 @@ layers:
   - Gui+X
   - Gui+Z
   - PAGE UP
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - LEFT GUI
@@ -213,7 +213,7 @@ layers:
   - ↓
   - ↑
   - →
-  - $$mdi:apple-keyboard-shift$$
+  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-shift$$'}
   - Ctl+␣
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -261,7 +261,7 @@ layers:
   - '&mkp MB2'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-command$$
@@ -272,7 +272,7 @@ layers:
   - '&mmv MOVE_DOWN'
   - '&mmv MOVE_RIGHT'
   - '&mmv MOVE_RIGHT'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -390,7 +390,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - '`'
   - '1'
@@ -449,7 +449,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - '~'
   - '!'
@@ -508,7 +508,7 @@ layers:
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - F1
