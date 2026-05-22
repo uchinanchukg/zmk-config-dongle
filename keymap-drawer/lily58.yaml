@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Gui+↹
+  - {t: Windows, h: toggle}
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -51,14 +51,14 @@ layers:
   - .
   - /
   - ↓
-  - {t: Gui+␣, h: Meh+LEFT GUI}
+  - Gui+↹
   - Macros
   - {t: ↹, h: Mouse}
   - {t: ␣, h: Navigation}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
-  - {t: Alt+␣, h: Meh+LEFT GUI}
+  - Gui+↹
   Windows:
   - Esc
   - '1'
@@ -71,7 +71,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - Gui+D
+  - {t: Base, h: toggle}
   - {t: '~', h: Meh+LEFT GUI}
   - Q
   - W
@@ -110,14 +110,14 @@ layers:
   - .
   - /
   - ↓
-  - {t: Alt+↹, h: Meh+LEFT GUI}
+  - Alt+↹
   - Macros
   - {t: ↹, h: Mouse}
   - {t: ␣, h: Windows Navigation}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
-  - {t: Alt+↹, h: Meh+LEFT GUI}
+  - Alt+↹
   Windows Navigation:
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}

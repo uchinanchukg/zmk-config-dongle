@@ -281,7 +281,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 56)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+↹</text>
+<a href="#Windows">
+<text x="0" y="0" class="key tap layer-activator"><tspan style="font-size: 86%">Windows</tspan></text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 112)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -450,8 +452,7 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(168, 259)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+␣</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">Meh+LEFT …</tspan></text>
+<text x="0" y="0" class="key tap">Gui+↹</text>
 </g>
 <g transform="translate(224, 260)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -490,8 +491,7 @@ rect.held, rect.combo.held {
 </a></g>
 <g transform="translate(756, 260)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Alt+␣</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">Meh+LEFT …</tspan></text>
+<text x="0" y="0" class="key tap">Gui+↹</text>
 </g>
 </g>
 </g>
@@ -544,7 +544,9 @@ rect.held, rect.combo.held {
 </g>
 <g transform="translate(896, 56)" class="key keypos-11">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap">Gui+D</text>
+<a href="#Base">
+<text x="0" y="0" class="key tap layer-activator">Base</text>
+</a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(28, 112)" class="key keypos-12">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -708,7 +710,6 @@ rect.held, rect.combo.held {
 <g transform="translate(168, 259)" class="key keypos-50">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt+↹</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">Meh+LEFT …</tspan></text>
 </g>
 <g transform="translate(224, 260)" class="key keypos-51">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -748,7 +749,6 @@ rect.held, rect.combo.held {
 <g transform="translate(756, 260)" class="key keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Alt+↹</text>
-<text x="0" y="24" class="key hold"><tspan style="font-size: 60%">Meh+LEFT …</tspan></text>
 </g>
 </g>
 </g>
