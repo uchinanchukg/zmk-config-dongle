@@ -54,7 +54,7 @@ layers:
   - Gui+↹
   - Macros
   - {t: ↹, h: Mouse}
-  - {t: ␣, h: Navigation}
+  - {t: ␣, h: Mac Navigation}
   - {t: BACKSPACE, h: Numbers}
   - {t: ENTER, h: Symbols}
   - {t: DELETE, h: Functions}
@@ -177,7 +177,7 @@ layers:
   - ⏎
   - ⌦
   - {t: ▽, type: trans}
-  Navigation:
+  Mac Navigation:
   - {t: Base, h: toggle}
   - Ctl+1
   - Ctl+2
@@ -297,7 +297,7 @@ layers:
   - {t: ▽, type: trans}
   Macros:
   - {t: Base, h: toggle}
-  - {t: Navigation, h: toggle}
+  - {t: Mac Navigation, h: toggle}
   - {t: Mouse, h: toggle}
   - {t: Macros, h: toggle}
   - {t: Numbers, h: toggle}
@@ -349,7 +349,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: Mouse, h: toggle}
-  - {t: Navigation, h: toggle}
+  - {t: Mac Navigation, h: toggle}
   - {t: Numbers, h: toggle}
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}

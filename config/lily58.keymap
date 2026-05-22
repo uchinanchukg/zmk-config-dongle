@@ -116,7 +116,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
-            label = "Navigation";
+            label = "Mac Navigation";
         };
 
         mouse_layer {
