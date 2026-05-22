@@ -186,8 +186,8 @@ layers:
   - {t: Symbols, h: toggle}
   - {t: Functions, h: toggle}
   - {t: Windows, h: toggle}
+  - {t: Windows Navigation, h: toggle}
   - {t: bluetooth, h: toggle}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: Base, h: toggle}
   - {t: ▽, type: trans}
