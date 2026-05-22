@@ -444,11 +444,11 @@ layers:
   - '%'
   - ^
   - '='
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - '~'
@@ -503,11 +503,11 @@ layers:
   - F5
   - F6
   - F11
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-shift$$
-  - RCMD
+  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
   - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

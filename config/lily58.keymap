@@ -148,7 +148,7 @@
             bindings = <
 &to 0   &kp N1     &kp N2  &kp N3  &kp N4     &kp N5                        &kp N6         &kp N7     &kp N8     &kp N9     &kp N0     &to 0
 &trans  &kp LBKT   &kp N7  &kp N8  &kp N9     &kp RBKT                      &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &kp BSLH
-&trans  &kp COLON  &kp N4  &kp N5  &kp N6     &kp PLUS                      &trans         &kp LCTRL  &kp RGUI   &kp RALT   &trans     &kp LSHFT
+&trans  &kp COLON  &kp N4  &kp N5  &kp N6     &kp PLUS                      &trans         &kp LCTRL  &kp LGUI   &kp LALT   &trans     &kp LSHFT
 &trans  &kp GRAVE  &kp N1  &kp N2  &kp N3     &kp BSLH  &trans    &trans    &trans         &trans     &kp COMMA  &kp DOT    &kp FSLH   &trans
                            &trans  &kp MINUS  &kp BSPC  &kp N0    &kp BSPC  &trans         &trans     &trans
             >;
@@ -160,7 +160,7 @@
             bindings = <
 &to 0   &kp LS(N1)      &kp LS(N2)       &kp LS(N3)    &kp LS(N4)  &kp LS(N5)                            &kp LS(N6)     &kp LS(N7)  &kp LS(N8)  &kp LS(N9)  &kp LS(N0)  &to 0
 &trans  &kp LEFT_BRACE  &kp AMPERSAND    &kp ASTERISK  &kp LPAR    &kp RIGHT_BRACE                       &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)   &kp LG(X)   &kp LG(Z)   &trans
-&trans  &kp SEMI        &kp DOLLAR       &kp PERCENT   &kp CARET   &kp EQUAL                             &kp RCTRL      &kp RSHFT   &kp RGUI    &kp RALT    &kp RSHFT   &kp RSHFT
+&trans  &kp SEMI        &kp DOLLAR       &kp PERCENT   &kp CARET   &kp EQUAL                             &trans         &kp LCTRL   &kp LGUI    &kp LALT    &trans      &kp LSHFT
 &trans  &kp TILDE       &kp EXCLAMATION  &kp AT_SIGN   &kp HASH    &kp LS(PIPE)     &trans       &trans  &trans         &trans      &trans      &trans      &trans      &trans
                                          &trans        &kp LPAR    &kp RPAR         &kp UNDER    &trans  &trans         &trans      &trans
             >;
@@ -172,7 +172,7 @@
             bindings = <
 &to 0   &kp F1  &kp F2  &kp F3  &kp F4   &kp F5                        &kp F6         &kp F7     &kp F8     &kp F9     &kp F10    &to 0
 &trans  &trans  &kp F7  &kp F8  &kp F9   &kp F10                       &kp LS(LG(Z))  &kp LG(V)  &kp LG(C)  &kp LG(X)  &kp LG(Z)  &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6   &kp F11                       &kp RCTRL      &kp RSHFT  &kp RCMD   &kp RALT   &kp RSHFT  &kp RSHFT
+&trans  &trans  &kp F4  &kp F5  &kp F6   &kp F11                       &trans         &kp LCTRL  &kp LGUI   &kp LALT   &trans     &kp LSHFT
 &trans  &trans  &kp F1  &kp F2  &kp F3   &kp F12  &trans       &trans  &trans         &trans     &trans     &trans     &trans     &trans
                         &trans  &kp ESC  &kp TAB  &kp SPACE    &trans  &trans         &trans     &trans
             >;
