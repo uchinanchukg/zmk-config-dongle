@@ -38,11 +38,11 @@
             #binding-cells = <0>;
             bindings =
                 <&kp H &kp A &kp Y &kp A &kp S &kp H &kp I &kp K &kp TAB>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 500>,
                 <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 500>,
                 <&kp RET>,
-                <&macro_wait_time 100>,
+                <&macro_wait_time 500>,
                 <&kp ENTER>;
 
             label = "PW_EPIC";
