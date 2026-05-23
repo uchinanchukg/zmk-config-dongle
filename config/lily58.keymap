@@ -136,7 +136,7 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 3  &tog 4  &tog 5         &tog 6            &tog 7                    &tog 8         &to 1       &tog 2                &tog 9                &trans      &to 0
+&to 0   &tog 3  &tog 4  &tog 5         &tog 6            &tog 7                    &tog 8         &to 1       &tog 2                &tog 9                &tog 10     &to 0
 &trans  &trans  &trans  &kp LG(LS(S))  &trans            &trans                    &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
 &trans  &trans  &trans  &trans         &kp LG(LS(LEFT))  &trans                    &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
 &trans  &trans  &trans  &pw_epic       &pw_smh           &trans  &trans    &trans  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
@@ -200,6 +200,19 @@
             >;
 
             label = "BT";
+        };
+
+        game_layer {
+            bindings = <
+&kp ESC    &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                  &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &to 0
+&kp TAB    &kp Q         &kp W        &kp E        &kp R         &kp T                                   &kp Y      &kp U     &kp UP     &kp O      &kp P     &kp LBKT
+&kp CAPS   &hrm LSHFT A  &hrm LALT S  &hrm LGUI D  &hrm LSHFT F  &hrm LCTRL G                            &kp H      &kp LEFT  &kp DOWN   &kp RIGHT  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z         &kp X        &kp C        &kp V         &kp B         &kp C_MUTE    &kp C_MUTE  &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp LSHFT
+                                      &trans       &trans        &kp TAB       &kp SPACE     &kp BSPC    &kp ENTER  &kp DEL   &trans
+            >;
+
+            label = "GAME";
+            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
     };
 };

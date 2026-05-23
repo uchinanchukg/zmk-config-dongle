@@ -306,7 +306,7 @@ layers:
   - {t: WIN, h: toggle}
   - {t: W NAV, h: toggle}
   - {t: BT, h: toggle}
-  - {t: ▽, type: trans}
+  - {t: GAME, h: toggle}
   - {t: MAC, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -589,4 +589,63 @@ layers:
   - BT CLR
   - {t: ▽, type: trans}
   - BT CLR ALL
+  - {t: ▽, type: trans}
+  GAME:
+  - Esc
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - {t: MAC, h: toggle}
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - ↑
+  - O
+  - P
+  - '['
+  - Caps Lock
+  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - H
+  - ←
+  - ↓
+  - →
+  - ;
+  - ''''
+  - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - MUTE
+  - MUTE
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - $$mdi:apple-keyboard-shift$$
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - ↹
+  - ␣
+  - $$mdi:backspace-outline$$
+  - ENTER
+  - ⌦
   - {t: ▽, type: trans}
