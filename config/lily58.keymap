@@ -79,7 +79,7 @@
         };
 
         windows_layer {
-            display-name = "Window";
+            display-name = "WinOS";
             bindings = <
 &kp ESC                         &kp N1        &kp N2       &kp N3        &kp N4        &kp N5                                           &kp N6           &kp N7        &kp N8        &kp N9           &kp N0        &to 0
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F         &kp P         &kp B                                            &kp J            &kp L         &kp U         &kp Y            &kp SQT       &kp UP
@@ -92,7 +92,7 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
 
-            label = "Winsssss";
+            label = "WinOS";
         };
 
         win_nav_layer {
