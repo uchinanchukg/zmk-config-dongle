@@ -60,7 +60,7 @@
             // | SHIFT |  Z  |  X  |  C   |  V   |  B   |   "["  |  |  "]"  |  N   |  M    |  ,    |  .   |   /   | SHIFT |
             //                     | ALT  | GUI  | LOWER|  SPACE |  | ENTER | RAISE| BSPC  | GUI   |
 
-            display-name = "MacOS";
+            display-name = "MAC";
             bindings = <
 &kp ESC                         &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                        &kp N6        &kp N7        &kp N8       &kp N9           &kp N0        &to 1
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F        &kp P         &kp B                                         &kp J         &kp L         &kp U        &kp Y            &kp SQT       &kp UP
@@ -75,11 +75,11 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
 
-            label = "MacOS";
+            label = "MAC";
         };
 
         windows_layer {
-            display-name = "WinOS";
+            display-name = "WIN";
             bindings = <
 &kp ESC                         &kp N1        &kp N2       &kp N3        &kp N4        &kp N5                                           &kp N6           &kp N7        &kp N8        &kp N9           &kp N0        &to 0
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F         &kp P         &kp B                                            &kp J            &kp L         &kp U         &kp Y            &kp SQT       &kp UP
@@ -92,11 +92,11 @@
                 <&inc_dec_kp C_VOL_UP C_VOL_DN>,
                 <&inc_dec_kp PG_UP PG_DN>;
 
-            label = "WinOS";
+            label = "WIN";
         };
 
         win_nav_layer {
-            label = "Win Nav";
+            label = "W NAV";
             bindings = <
 &to 0           &trans     &trans     &trans          &trans        &trans                                                        &trans      &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LC(Z)  &kp LC(X)  &kp LC(C)       &kp LC(V)     &kp LC(Y)                                                     &kp LC(Y)   &kp LC(V)  &kp LC(C)      &kp LC(X)    &kp LC(Z)  &kp PAGE_UP
@@ -118,7 +118,7 @@
             >;
 
             sensor-bindings = <&inc_dec_kp LC(RIGHT) LC(LEFT)>;
-            label = "Mac Nav";
+            label = "M NAV";
         };
 
         mouse_layer {
@@ -130,7 +130,7 @@
                                       &trans     &trans     &trans         &trans        &mkp MB1      &mkp MB2  &mkp MB3        &trans
             >;
 
-            label = "Mouse";
+            label = "MOUSE";
             sensor-bindings = <&inc_dec_kp K_SCROLL_DOWN K_SCROLL_UP>;
         };
 
@@ -143,7 +143,7 @@
                         &trans         &trans            &tog 4  &tog 3    &tog 6  &tog 7         &tog 8      &trans
             >;
 
-            label = "Macros";
+            label = "MACRO";
         };
 
         num_layer {
@@ -155,7 +155,7 @@
                            &trans  &kp MINUS  &kp BSPC  &kp N0    &kp BSPC  &trans         &trans     &trans
             >;
 
-            label = "Numbers";
+            label = "NUM";
         };
 
         sym_layer {
@@ -167,7 +167,7 @@
                                          &trans        &kp LPAR    &kp RPAR         &kp UNDER    &trans  &trans         &trans      &trans
             >;
 
-            label = "Symbols";
+            label = "SYM";
         };
 
         fun_layer {
@@ -179,7 +179,7 @@
                         &trans  &kp ESC  &kp TAB  &kp SPACE    &trans  &trans         &trans     &trans
             >;
 
-            label = "Functions";
+            label = "FUN";
         };
 
         bt_layer {
@@ -198,6 +198,8 @@
 &trans  &trans        &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans  &trans          &trans      &trans  &trans          &trans  &trans  &trans        &bt BT_NXT
                                     &trans        &trans        &trans  &bt BT_SEL 0    &bt BT_CLR  &trans  &bt BT_CLR_ALL  &trans
             >;
+
+            label = "BT";
         };
     };
 };
