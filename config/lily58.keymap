@@ -204,11 +204,11 @@
 
         game_layer {
             bindings = <
-&kp ESC    &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                  &kp N6     &kp N7    &kp N8     &kp N9     &kp N0    &to 0
-&kp TAB    &kp Q         &kp W        &kp E        &kp R         &kp T                                   &kp Y      &kp U     &kp UP     &kp O      &kp P     &kp LBKT
-&kp CAPS   &hrm LSHFT A  &hrm LALT S  &hrm LGUI D  &hrm LSHFT F  &hrm LCTRL G                            &kp H      &kp LEFT  &kp DOWN   &kp RIGHT  &kp SEMI  &kp SQT
-&kp LSHFT  &kp Z         &kp X        &kp C        &kp V         &kp B         &kp C_MUTE    &kp C_MUTE  &kp N      &kp M     &kp COMMA  &kp DOT    &kp FSLH  &kp LSHFT
-                                      &trans       &trans        &kp TAB       &kp SPACE     &kp BSPC    &kp ENTER  &kp DEL   &trans
+&kp ESC    &kp N1  &kp N2  &kp N3       &kp N4  &kp N5                                     &kp N6       &kp N7     &kp N8       &kp N9     &kp N0    &to 0
+&kp TAB    &kp Q   &kp W   &kp E        &kp R   &kp T                                      &kp Y        &kp U      &kp UP       &kp O      &kp P     &kp LBKT
+&kp CAPS   &kp A   &kp S   &kp D        &kp F   &kp G                                      &kp H        &kp LEFT   &kp DOWN     &kp RIGHT  &kp SEMI  &kp SQT
+&kp LSHFT  &kp Z   &kp X   &kp C        &kp V   &kp B      &kp C_MUTE     &kp C_MUTE       &kp N        &kp M      &kp COMMA    &kp DOT    &kp FSLH  &kp LSHFT
+                           &kp LG(TAB)  &mo 5   &lt 4 TAB  &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER  &lt 8 DEL  &kp LG(TAB)
             >;
 
             label = "GAME";

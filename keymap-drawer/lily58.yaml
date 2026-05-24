@@ -616,11 +616,11 @@ layers:
   - P
   - '['
   - Caps Lock
-  - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-command$$'}
-  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: G, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
   - H
   - ←
   - ↓
@@ -641,11 +641,11 @@ layers:
   - .
   - /
   - $$mdi:apple-keyboard-shift$$
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - ↹
-  - ␣
-  - $$mdi:backspace-outline$$
-  - ENTER
-  - ⌦
-  - {t: ▽, type: trans}
+  - Gui+↹
+  - MACRO
+  - {t: ↹, h: MOUSE}
+  - {t: ␣, h: M NAV}
+  - {t: BACKSPACE, h: NUM}
+  - {t: ENTER, h: SYM}
+  - {t: ⌦, h: FUN}
+  - Gui+↹
