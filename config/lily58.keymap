@@ -47,7 +47,8 @@
             label = "PW_SMH";
             #binding-cells = <0>;
             bindings =
-                <&macro_tap LS(H) D S T M K C C RPAR N0 RET>;
+                <&kp LS(H)>,
+                <&macro_tap D S T M K C C RPAR N0 RET>;
         };
 
         pw_epic: pw_epic {
