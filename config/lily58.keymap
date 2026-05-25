@@ -26,6 +26,22 @@
     };
 
     macros {
+
+        /* ✅ New OS switching macros */
+        mac_profile: mac_profile {
+            compatible = "zmk,behavior-macro";
+            label = "MAC_PROFILE";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0>, <&to 0>;
+        };
+
+        win_profile: win_profile {
+            compatible = "zmk,behavior-macro";
+            label = "WIN_PROFILE";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1>, <&to 1>;
+        };
+
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
