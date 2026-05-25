@@ -338,8 +338,8 @@ layers:
   - '&pw_epic'
   - '&pw_smh'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT CLR
+  - BT CLR ALL
   - {t: ▽, type: trans}
   - PREV
   - BRIGHTNESS DEC
