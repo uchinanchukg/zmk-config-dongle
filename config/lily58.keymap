@@ -108,7 +108,7 @@
             sensor-bindings = <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>;
         };
 
-        nav_layer {
+        mac_nav_layer {
             bindings = <
 &to 0           &kp LC(N1)  &kp LC(N2)  &kp LC(N3)      &kp LC(UP_ARROW)  &kp LC(DOWN)                             &trans         &trans     &trans         &trans       &trans     &to 0
 &trans          &kp LG(Z)   &kp LG(X)   &kp LG(C)       &kp LG(V)         &kp LS(LG(Z))                            &kp LG(LS(Z))  &kp LG(V)  &kp LG(C)      &kp LG(X)    &kp LG(Z)  &kp PAGE_UP
