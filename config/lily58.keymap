@@ -51,6 +51,8 @@
                 <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>;
         };
 
+
+
         pw_epic: pw_epic {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -58,17 +60,13 @@
         
             bindings =
                 <&macro_tap H A Y A S H I K TAB>,
-
-                <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>,
-
-                <&macro_wait_time 500>,        
-                <&kp ENTER>;
-
+                <&pw_smh>,
+        
+                <&macro_wait_time 500>,
+                <&kp ENTER>,
                 <&macro_wait_time 500>,
                 <&kp ENTER>;
-
         };
-
 
     };
 
