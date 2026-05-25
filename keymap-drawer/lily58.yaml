@@ -337,7 +337,7 @@ layers:
   - {t: ▽, type: trans}
   - '&pw_epic'
   - '&pw_smh'
-  - {t: ▽, type: trans}
+  - '&pw_keiji'
   - BT CLR
   - BT CLR ALL
   - {t: ▽, type: trans}

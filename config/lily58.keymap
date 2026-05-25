@@ -69,6 +69,13 @@
             label = "PW_EPIC";
             tap-ms = <10>;
         };
+
+        pw_keiji: pw_keiji {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(H) &kp K &kp E &kp A &kp S &kp N &kp A &kp L &kp U &kp M &kp I &kp AT &kp N3 &kp N1 &kp N2>;
+            label = "PW_KEIJI";
+        };
     };
 
     keymap {
@@ -158,11 +165,11 @@
 
         macro_layer {
             bindings = <
-&to 0   &tog 3  &tog 4  &tog 5         &tog 6            &tog 7                                &tog 8         &to 1       &tog 2                &tog 9                &tog 10     &to 0
-&trans  &trans  &trans  &kp LG(LS(S))  &trans            &trans                                &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
-&trans  &trans  &trans  &trans         &kp LG(LS(LEFT))  &trans                                &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
-&trans  &trans  &trans  &pw_epic       &pw_smh           &trans  &bt BT_CLR    &bt BT_CLR_ALL  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
-                        &trans         &trans            &tog 4  &tog 3        &tog 6          &tog 7         &tog 8      &trans
+&to 0   &tog 3  &tog 4  &tog 5         &tog 6            &tog 7                                   &tog 8         &to 1       &tog 2                &tog 9                &tog 10     &to 0
+&trans  &trans  &trans  &kp LG(LS(S))  &trans            &trans                                   &kp LS(LG(Z))  &kp LG(V)   &kp LG(C)             &kp LG(X)             &kp LG(Z)   &kp C_VOLUME_UP
+&trans  &trans  &trans  &trans         &kp LG(LS(LEFT))  &trans                                   &kp C_MUTE     &kp C_PREV  &kp C_VOL_DN          &kp C_VOL_UP          &kp C_NEXT  &trans
+&trans  &trans  &trans  &pw_epic       &pw_smh           &pw_keiji  &bt BT_CLR    &bt BT_CLR_ALL  &trans         &kp K_PREV  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &kp K_NEXT  &kp C_VOLUME_DOWN
+                        &trans         &trans            &tog 4     &tog 3        &tog 6          &tog 7         &tog 8      &trans
             >;
 
             label = "MACRO";
