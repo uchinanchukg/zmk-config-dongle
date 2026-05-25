@@ -46,7 +46,11 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             tapping-term-ms = <10>;
-            bindings = <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>;
+            bindings =
+                <&macro_tap_time 15>,
+                <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0>,
+                <&macro_pause 20>,
+                <&kp RET>;
             label = "PW_SMH";
         };
 
