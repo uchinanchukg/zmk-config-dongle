@@ -76,6 +76,14 @@
             bindings = <&kp LS(H) &kp K &kp E &kp A &kp S &kp N &kp A &kp L &kp U &kp M &kp I &kp AT &kp N3 &kp N1 &kp N2>;
             label = "PW_KEIJI";
         };
+
+        pw_ul: pw_ul {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LS(I) &kp S &kp A &kp I &kp D &kp S &kp T &kp O &kp P &kp N8>;
+            label = "PW_UL";
+            tap-ms = <10>;
+        };
     };
 
     keymap {
