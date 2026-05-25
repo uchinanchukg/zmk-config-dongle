@@ -51,14 +51,14 @@ layers:
   - .
   - /
   - ↓
-  - Gui+↹
+  - {t: Gui+↹, h: Gui+␣}
   - MACRO
   - {t: ↹, h: MOUSE}
   - {t: ␣, h: M NAV}
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: DELETE, h: FUN}
-  - Gui+↹
+  - {t: Gui+↹, h: Gui+␣}
   WIN:
   - Esc
   - '1'
