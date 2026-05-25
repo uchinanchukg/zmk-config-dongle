@@ -44,22 +44,24 @@
 
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
-            label = "PW_SMH";
             #binding-cells = <0>;
-            bindings = <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>;
+            bindings = <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>;
+            label = "PW_SMH";
         };
 
         pw_epic: pw_epic {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            label = "PW_EPIC";
             bindings =
-                <&macro_tap H A Y A S H I K TAB>,
-                <&pw_smh>,
+                <&kp H &kp A &kp Y &kp A &kp S &kp H &kp I &kp K &kp TAB>,
                 <&macro_wait_time 500>,
-                <&kp ENTER>,
+                <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>,
+                <&macro_wait_time 500>,
+                <&kp RET>,
                 <&macro_wait_time 500>,
                 <&kp ENTER>;
+
+            label = "PW_EPIC";
         };
     };
 
