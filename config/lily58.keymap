@@ -44,9 +44,10 @@
 
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>;
             label = "PW_SMH";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_tap LS(H) D S T M K C C RPAR N0 RET>;
         };
 
         pw_epic: pw_epic {
