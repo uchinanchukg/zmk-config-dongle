@@ -48,7 +48,7 @@
             #binding-cells = <0>;
         
             bindings =
-                <&macro_tap LS(H) D S T M K C C RPAR N0 RET>;
+                <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>;
         };
 
         pw_epic: pw_epic {
@@ -58,14 +58,15 @@
         
             bindings =
                 <&macro_tap H A Y A S H I K TAB>,
-                <&macro_wait_time 500>,
-        
-                <&macro_tap LS(H) D S T M K C C RPAR N0>,
-                <&macro_wait_time 500>,
-                <&kp RET>,
-        
+
+                <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>,
+
+                <&macro_wait_time 500>,        
+                <&kp ENTER>;
+
                 <&macro_wait_time 500>,
                 <&kp ENTER>;
+
         };
 
 
