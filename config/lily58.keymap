@@ -48,7 +48,7 @@
             #binding-cells = <0>;
         
             bindings =
-                <&macro_tap H D S T M K C C RPAR N0 RET>;
+                <&macro_tap LS(H) D S T M K C C RPAR N0 RET>;
         };
 
         pw_epic: pw_epic {
