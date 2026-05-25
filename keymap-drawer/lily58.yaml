@@ -230,7 +230,7 @@ layers:
   - PAGE DOWN
   - BT CLR ALL
   - BT 1
-  - {t: ▽, type: trans}
+  - BT 2
   - {type: held}
   - $$mdi:backspace-outline$$
   - ⏎
