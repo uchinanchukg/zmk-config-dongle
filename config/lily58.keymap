@@ -26,48 +26,41 @@
     };
 
     macros {
-
         /* ✅ New OS switching macros */
+
         mac_profile: mac_profile {
             compatible = "zmk,behavior-macro";
             label = "MAC_PROFILE";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 0>, <&to 0>;
+            bindings = <&bt BT_SEL 0 &to 0>;
         };
 
         win_profile: win_profile {
             compatible = "zmk,behavior-macro";
             label = "WIN_PROFILE";
             #binding-cells = <0>;
-            bindings = <&bt BT_SEL 1>, <&to 1>;
+            bindings = <&bt BT_SEL 1 &to 1>;
         };
 
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
             label = "PW_SMH";
             #binding-cells = <0>;
-        
-            bindings =
-                <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>;
+            bindings = <&macro_tap LS(H) D S T M K C C RPAR N0 ENTER>;
         };
-
-
 
         pw_epic: pw_epic {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             label = "PW_EPIC";
-        
             bindings =
                 <&macro_tap H A Y A S H I K TAB>,
                 <&pw_smh>,
-        
                 <&macro_wait_time 500>,
                 <&kp ENTER>,
                 <&macro_wait_time 500>,
                 <&kp ENTER>;
         };
-
     };
 
     keymap {
@@ -83,7 +76,7 @@
 
             display-name = "MAC";
             bindings = <
-&kp ESC                         &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                        &kp N6        &kp N7        &kp N8       &kp N9           &kp N0        &to 1
+&kp ESC                         &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                        &kp N6        &kp N7        &kp N8       &kp N9           &kp N0        &win_profile
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F        &kp P         &kp B                                         &kp J         &kp L         &kp U        &kp Y            &kp SQT       &kp UP
 &mt LEFT_SHIFT LG(LS(SPACE))    &hrm LSHFT A  &hrm LALT R  &hrm LGUI S  &hrm LSHFT T  &hrm LCTRL G                                  &hrm LCTRL M  &hrm LSHFT N  &hrm LCMD E  &hrm LEFT_ALT I  &hrm LSHFT O  &mt LSHFT LS(LG(BACKSPACE))
 &kp LC(SPACE)                   &kp Z         &kp X        &kp C        &kp D         &kp V         &kp C_MUTE     &kp C_MUTE       &kp K         &kp H         &kp COMMA    &kp DOT          &kp FSLH      &kp DOWN
@@ -102,7 +95,7 @@
         windows_layer {
             display-name = "WIN";
             bindings = <
-&kp ESC                         &kp N1        &kp N2       &kp N3        &kp N4        &kp N5                                           &kp N6           &kp N7        &kp N8        &kp N9           &kp N0        &to 0
+&kp ESC                         &kp N1        &kp N2       &kp N3        &kp N4        &kp N5                                           &kp N6           &kp N7        &kp N8        &kp N9           &kp N0        &mac_profile
 &mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F         &kp P         &kp B                                            &kp J            &kp L         &kp U         &kp Y            &kp SQT       &kp UP
 &mt LSHFT CAPS                  &hrm LSHFT A  &hrm LALT R  &hrm LCTRL S  &hrm LSHFT T  &hrm LEFT_GUI G                                  &hrm LEFT_GUI M  &hrm LSHFT N  &hrm LCTRL E  &hrm LEFT_ALT I  &hrm LSHFT O  &mt LSHFT CAPSLOCK
 &kp LCTRL                       &kp Z         &kp X        &kp C         &kp D         &kp V            &kp C_MUTE     &kp C_MUTE       &kp K            &kp H         &kp COMMA     &kp DOT          &kp FSLH      &kp DOWN
