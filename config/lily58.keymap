@@ -45,7 +45,7 @@
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            <&macro_tap_time 10>;
+            tapping-term-ms = <10>;
             bindings = <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>;
             label = "PW_SMH";
         };
