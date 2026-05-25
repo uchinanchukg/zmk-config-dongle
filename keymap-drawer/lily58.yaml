@@ -95,7 +95,7 @@ layers:
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
   - {t: I, h: LEFT ALT}
   - {t: O, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: CAPSLOCK, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-control$$
   - Z
   - X
