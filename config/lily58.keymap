@@ -23,12 +23,6 @@
             quick-tap-ms = <0>;
             hold-trigger-on-release;
         };
-
-        &msc {
-            time-to-max-speed-ms = <50>;
-            acceleration-exponent = <0>;
-        };
-
     };
 
     macros {
