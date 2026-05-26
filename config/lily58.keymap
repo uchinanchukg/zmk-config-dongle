@@ -10,11 +10,11 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &msc {
-    time-to-max-speed-ms = <50>;
+    time-to-max-speed-ms = <100>;
     acceleration-exponent = <0>;
 };
 
-&mmv { time-to-max-speed-ms = <200>; };
+&mmv { time-to-max-speed-ms = <250>; };
 
 / {
     behaviors {
