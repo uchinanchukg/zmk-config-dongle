@@ -223,10 +223,10 @@ layers:
   - Ctl+1
   - Ctl+1
   - INSERT
-  - Home
+  - Gui+←
   - PAGE DOWN
   - PAGE UP
-  - End
+  - Gui+→
   - PAGE DOWN
   - BT CLR ALL
   - BT 1
