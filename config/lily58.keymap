@@ -24,11 +24,11 @@
             bindings = <&kp>, <&kp>;
 
             #binding-cells = <2>;
-            flavor = "tap-preferred";
-            tapping-term-ms = <270>;
-            require-prior-idle-ms = <200>;
+            flavor = "balanced";
+            tapping-term-ms = <230>;
+            require-prior-idle-ms = <80>;
             quick-tap-ms = <0>;
-            hold-trigger-on-release;
+            hold-while-undecided;
         };
     };
 
