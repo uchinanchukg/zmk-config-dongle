@@ -182,8 +182,8 @@ layers:
   - Ctl+1
   - Ctl+2
   - Ctl+3
-  - Ctl+UP ARROW
-  - Ctl+↓
+  - Ctl+←
+  - Ctl+→
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,8 +220,8 @@ layers:
   - $$mdi:backspace-outline$$
   - ⌦
   - ⏎
-  - Ctl+1
-  - Ctl+1
+  - Ctl+↑
+  - Ctl+↓
   - INSERT
   - Gui+←
   - PAGE DOWN
@@ -338,8 +338,8 @@ layers:
   - '&pw_epic'
   - '&pw_smh'
   - '&pw_keiji'
-  - BT CLR
-  - BT CLR ALL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - PREV
   - BRIGHTNESS DEC
