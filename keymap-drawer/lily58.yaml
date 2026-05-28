@@ -309,7 +309,7 @@ layers:
   - {t: GAME, h: toggle}
   - {t: MAC, h: toggle}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Win Close
   - {t: ▽, type: trans}
   - Gui+Sft+S
   - {t: ▽, type: trans}
@@ -324,7 +324,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+←
+  - Gui+Sft+→
   - {t: ▽, type: trans}
   - MUTE
   - ⏮️
