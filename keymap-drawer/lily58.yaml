@@ -323,7 +323,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Alt+↹
   - Gui+Sft+→
   - {t: ▽, type: trans}
   - MUTE
