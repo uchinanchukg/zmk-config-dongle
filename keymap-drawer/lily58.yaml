@@ -333,8 +333,8 @@ layers:
   - ⏭️
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&pw_reports'
+  - '&pw_ul'
   - '&pw_epic'
   - '&pw_smh'
   - '&pw_keiji'
