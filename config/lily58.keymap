@@ -107,11 +107,11 @@
 
             display-name = "MAC";
             bindings = <
-&kp ESC                         &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                        &kp N6        &kp N7        &kp N8            &kp N9           &kp N0        &win_profile
-&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F        &kp P         &kp B                                         &kp J         &kp L         &kp U             &kp Y            &kp SQT       &kp UP
-&mt LEFT_SHIFT LG(LS(SPACE))    &hrm LSHFT A  &hrm LALT R  &hrm LGUI S  &hrm LSHFT T  &hrm LCTRL G                                  &hrm LCTRL M  &hrm LSHFT N  &hrm LCMD E       &hrm LEFT_ALT I  &hrm LSHFT O  &mt LSHFT LS(LG(BACKSPACE))
-&kp LC(SPACE)                   &kp Z         &kp X        &kp C        &kp D         &kp V         &kp C_MUTE     &kp C_MUTE       &kp K         &kp H         &kp COMMA         &kp DOT          &kp FSLH      &kp DOWN
-                                                           &kp LG(TAB)  &mo 5         &lt 4 TAB     &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER   &lt 8 DELETE  &kp LG(LEFT_GUI)
+&kp ESC                         &kp N1        &kp N2       &kp N3       &kp N4        &kp N5                                        &kp N6        &kp N7        &kp N8        &kp N9           &kp N0        &win_profile
+&mt LS(LA(LC(LEFT_GUI))) TILDE  &kp Q         &kp W        &kp F        &kp P         &kp B                                         &kp J         &kp L         &kp U         &kp Y            &kp SQT       &kp UP
+&mt LEFT_SHIFT LG(LS(SPACE))    &hrm LSHFT A  &hrm LALT R  &hrm LGUI S  &hrm LSHFT T  &hrm LCTRL G                                  &hrm LCTRL M  &hrm LSHFT N  &hrm LCMD E   &hrm LEFT_ALT I  &hrm LSHFT O  &mt LSHFT LS(LG(BACKSPACE))
+&kp LC(SPACE)                   &kp Z         &kp X        &kp C        &kp D         &kp V         &kp C_MUTE     &kp C_MUTE       &kp K         &kp H         &kp COMMA     &kp DOT          &kp FSLH      &kp DOWN
+                                                           &kp LG(TAB)  &mo 5         &lt 4 TAB     &lt 3 SPACE    &lt 6 BACKSPACE  &lt 7 ENTER   &lt 8 DELETE  &kp LEFT_GUI
             >;
 
             // sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;

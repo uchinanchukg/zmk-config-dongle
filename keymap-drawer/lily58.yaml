@@ -58,7 +58,7 @@ layers:
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: DELETE, h: FUN}
-  - Gui+LEFT GUI
+  - LEFT GUI
   WIN:
   - Esc
   - '1'
