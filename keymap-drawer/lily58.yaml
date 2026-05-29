@@ -611,7 +611,7 @@ layers:
   - T
   - Y
   - U
-  - ↑
+  - I
   - O
   - P
   - '['
@@ -622,9 +622,9 @@ layers:
   - F
   - G
   - H
-  - ←
-  - ↓
-  - →
+  - J
+  - K
+  - L
   - ;
   - ''''
   - $$mdi:apple-keyboard-shift$$
@@ -648,4 +648,4 @@ layers:
   - {t: BACKSPACE, h: NUM}
   - {t: ENTER, h: SYM}
   - {t: ⌦, h: FUN}
-  - Gui+↹
+  - LEFT GUI
