@@ -643,9 +643,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - Gui+↹
   - MACRO
-  - {t: ↹, h: MOUSE}
-  - {t: ␣, h: M NAV}
-  - {t: BACKSPACE, h: NUM}
-  - {t: ENTER, h: SYM}
-  - {t: ⌦, h: FUN}
+  - ↹
+  - ␣
+  - BACKSPACE
+  - ⏎
+  - ⌦
   - LEFT GUI
