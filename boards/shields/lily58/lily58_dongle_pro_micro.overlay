@@ -158,5 +158,39 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         };
 };
 
+/ {
+    chosen {
+        zmk,display-layout = &display_layout;
+    };
+
+    /* Labels */
+    label_d: label_d {
+        compatible = "zmk,display-label";
+        text = "D ";
+    };
+
+    label_l: label_l {
+        compatible = "zmk,display-label";
+        text = "L ";
+    };
+
+    label_r: label_r {
+        compatible = "zmk,display-label";
+        text = "R ";
+    };
+
+    /* Layout */
+    display_layout: display_layout {
+        compatible = "zmk,display-layout";
+
+        widgets = <
+            &label_d &dongle_battery
+            &label_l &peripheral_battery_0
+            &label_r &peripheral_battery_1
+        >;
+    };
+};
+
+
 */
 // vim: filetype=dts fdm=marker:
