@@ -312,7 +312,7 @@ layers:
   - Win Close
   - {t: ▽, type: trans}
   - Gui+Sft+S
-  - {t: ▽, type: trans}
+  - Sft+Gui+7
   - {t: ▽, type: trans}
   - Sft+Gui+Z
   - Gui+V
