@@ -144,7 +144,7 @@ layers:
   - Ctl+Z
   - PAGE UP
   - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - Ctl+A
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-shift$$
@@ -203,7 +203,7 @@ layers:
   - Gui+Z
   - PAGE UP
   - {t: Caps Lock, h: '$$mdi:apple-keyboard-shift$$'}
-  - $$mdi:apple-keyboard-shift$$
+  - Gui+A
   - $$mdi:apple-keyboard-option$$
   - LEFT GUI
   - $$mdi:apple-keyboard-shift$$
