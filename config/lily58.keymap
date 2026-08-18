@@ -52,7 +52,7 @@
         pw_smh: pw_smh {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>;
+            bindings = <&kp N1 &kp LS(H) &kp E &kp M &kp O &kp D &kp I &kp A &kp L &kp Y &kp S &kp I &kp S &kp RPAR &kp RET>;
             label = "PW_SMH";
             tap-ms = <10>;
         };
@@ -61,7 +61,7 @@
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings =
-                <&kp H &kp A &kp Y &kp A &kp S &kp H &kp I &kp K &kp TAB &kp LS(H) &kp D &kp S &kp T &kp M &kp K &kp C &kp C &kp RPAR &kp N0 &kp RET>,
+                <&kp H &kp A &kp Y &kp A &kp S &kp H &kp I &kp K &kp TAB &kp N1 &kp LS(H) &kp E &kp M &kp O &kp D &kp I &kp A &kp L &kp Y &kp S &kp I &kp S &kp RPAR &kp RET>,
                 <&macro_wait_time 800>,
                 <&kp ENTER>,
                 <&macro_wait_time 1000>,
